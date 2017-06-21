@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/btnListExerciseFavorite"
+        android:src="@drawable/abc_ic_star_black_36dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:background="@android:color/transparent"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btnListExerciseFavorite"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="72dp"
+        android:id="@+id/linearLayoutListExerciseText"
+        android:focusable="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/txtListExerciseBody"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnListExerciseFavorite"
+            android:layout_toEndOf="@+id/btnListExerciseFavorite"
+            android:layout_alignTop="@+id/btnListExerciseFavorite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:lines="1"
+            android:textColor="@color/material_grey_800" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtListExerciseBodyDesc"
+            android:lines="1"
+            android:layout_below="@+id/txtListExerciseBody"
+            android:layout_toRightOf="@+id/btnListExerciseFavorite"
+            android:layout_toEndOf="@+id/btnListExerciseFavorite"
+            android:textSize="13sp"
+            android:textColor="@color/material_grey_600"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtListExerciseBodyDesc2"
+            android:lines="1"
+            android:layout_below="@+id/txtListExerciseBody"
+            android:layout_toRightOf="@+id/btnListExerciseFavorite"
+            android:layout_toEndOf="@+id/btnListExerciseFavorite"
+            android:textSize="13sp"
+            android:textColor="@color/material_grey_600" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="false"
+        android:id="@+id/linearLayoutListExerciseButtons">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnListExerciseBodyAdd"
+            android:src="@drawable/ic_add_circle_outline_black_36dp"
+            android:layout_alignBottom="@+id/btnListExerciseFavorite"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnListExerciseBodyMore"
+            android:src="@drawable/ic_more_circle_outline_black_36dp"
+            android:layout_below="@+id/btnListExerciseBodyAdd"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignRight="@+id/btnListExerciseBodyAdd"
+            android:layout_weight="1"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/material_grey_600"
+        android:id="@+id/viewListExerciseBodyLine"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/linearLayoutListExerciseText" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- View styles -->
+	<attr name="MainGroup" format="reference" />
+	<attr name="MainChild" format="reference" />
+	<attr name="ErrorView" format="reference" />
+	<attr name="ChatText" format="reference" />
+	<attr name="dialogTextColor" format="reference" />
+	
+	<!-- Attributes -->
+	<attr name="ChatMsgHeaderMeColor" format="reference|color" />
+	<attr name="ChatMsgHeaderYouColor" format="reference|color" />
+	<attr name="OnlineFriends" format="reference" />
+	<attr name="AllFriends" format="reference" />
+	<attr name="ChatNewMessageColor" format="reference|color" />
+	<attr name="ChatStoredMessageColor" format="reference|color" />
+
+
+	<declare-styleable name="SherlockTheme">
+		<!-- =================== -->
+		<!-- Action bar styles   -->
+		<!-- =================== -->
+		<eat-comment />
+		<!-- Default style for tabs within an action bar -->
+		<!-- =================== -->
+		<!-- Action mode styles  -->
+		<!-- =================== -->
+		<eat-comment />
+		<!-- ============= -->
+		<!-- Button styles -->
+		<!-- ============= -->
+		<eat-comment />
+
+
+		<!-- This Drawable is overlaid over the foreground of the Window's content area, usually
+             to place a shadow below the title.  -->
+		<attr name="windowContentOverlay" format="reference" />
+
+
+		<!-- Text color, typeface, size, and style for "small" text. Defaults to secondary text color. -->
+		<attr name="textAppearanceSmall" format="reference" />
+
+		<attr name="textColorPrimary" format="color" />
+		<attr name="textColorPrimaryDisableOnly" format="color" />
+		<attr name="textColorPrimaryInverse" format="color" />
+
+		<attr name="spinnerItemStyle" format="reference" />
+		<!-- ============================ -->
+		<!-- SearchView styles and assets -->
+		<!-- ============================ -->
+		<eat-comment />
+		<!-- SearchView AutoCompleteTextView style -->
+		<attr name="searchAutoCompleteTextView" format="reference" />
+		<!-- SearchView dropdown background -->
+		<attr name="searchDropdownBackground" format="reference" />
+		<!-- SearchView close button icon -->
+		<attr name="searchViewCloseIcon" format="reference" />
+		<!-- SearchView Go button icon -->
+		<attr name="searchViewGoIcon" format="reference" />
+		<!-- SearchView Search icon -->
+		<attr name="searchViewSearchIcon" format="reference" />
+		<!-- SearchView Voice button icon -->
+		<attr name="searchViewVoiceIcon" format="reference" />
+		<!-- SearchView query refinement icon -->
+		<attr name="searchViewEditQuery" format="reference" />
+		<!-- SearchView query refinement icon background -->
+		<attr name="searchViewEditQueryBackground" format="reference" />
+		<!-- SearchView text field background for the left section -->
+		<attr name="searchViewTextField" format="reference" />
+		<!-- SearchView text field background for the right section -->
+		<attr name="searchViewTextFieldRight" format="reference" />
+		<!-- The list item height for search results. @hide -->
+		<attr name="searchResultListItemHeight" format="dimension" />
+		<!-- =========== -->
+		<!-- List styles -->
+		<!-- =========== -->
+		<eat-comment />
+		<attr name="actionSpinnerItemStyle" format="reference" />
+		<attr name="windowSplitActionBar" format="boolean" />
+
+		<!-- Drawable used as a background for activated items. -->
+		<attr name="activatedBackgroundIndicator" format="reference" />
+
+		<attr name="dropDownHintAppearance" format="reference" />
+	</declare-styleable>
+
+</resources>

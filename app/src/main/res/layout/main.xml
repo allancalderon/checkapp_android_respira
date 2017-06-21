@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar_chat_activity"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+	</android.support.design.widget.AppBarLayout>
+
+	<TextView android:id="@+id/connecting_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:text=""
+		android:focusable="true"/>
+
+	<TextView android:id="@+id/error_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="?ErrorView"
+		android:visibility="gone"
+		android:text=""
+		android:focusable="true"/>
+
+	<ExpandableListView android:id="@+id/elListChat"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:scrollingCache="true"
+		android:fadingEdge="none"
+		android:cacheColorHint="#0000"
+		android:groupIndicator="@null"
+		android:divider="@null"
+		android:dividerHeight="0dp"
+		android:childDivider="@null"
+		android:paddingBottom="88dp"
+		android:clipToPadding="false"
+		android:focusable="true"
+		android:clickable="true"
+
+		/>
+
+	<TextView android:id="@+id/android:empty"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:textSize="18sp"
+		android:text="@string/conn_empty_roster"/>
+</LinearLayout>

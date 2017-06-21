@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exerciseslist value="2"> <!--Version 2 -->
+    <exercises>
+        <idExercises value="1"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="1"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE1"/>
+        <sourceType value="XMLREC"/>
+        <title value="Nutrición EPOC"/>
+        <urlVideo value="VffqNsyvTfI"/>
+        <!-- Short Description -->
+        <otherInfo1 value="Entrevista con cardióloga especialista en nutrición"/>
+        <description>
+            <![CDATA[
+            <h3>Entrevista con cardióloga especialista en nutrición</h3>
+            <p>La Dra. Paola Harwicz, cardióloga especialista en nutrición, nos informa sobre el rol que juega la alimentación en los pacientes con Epoc, enfermedad pulmonar que causa dificultades para respirar, cómo podemos prevenirla y acompañar a pacientes que son diagnosticados con este cuadro.
+            </p><p>Es muy importante el estado del paciente para escoger el tipo de alimento, ya que si el paciente tiene una disminución respiratoria importante, es conveniente escoger alimentos que requieran poco esfuerzo para su consumo.
+            </p><p>Adicionalmente, se recomienda evitar alimentos que generen distención abdominal, ya que esto contribuye a disminuir la capacidad respiratoria. Se debe evitar consumir hidratos de carbono en exceso, ya que esto hace que el organismo produzca CO<sub>2</sub>
+            </p><p>El tener una dieta mediterránea es beneficioso para los pacientes por EPOC, ya que es rica en vitaminas.
+            </p><p>Fuente:  <a class="g-hovercard yt-uix-sessionlink spf-link " href="https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg" data-ytid="UCs231K71Bnu5295_x0MB5Pg" data-sessionlink="itct=CDAQ4TkiEwiGu6vPrM3OAhVYLhwKHamQBRso-B0">TV Pública Argentina</a>
+            </p>
+        ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+        <!--comment>
+            <idComment value=""/>
+            <idUserFK value=""/>
+            <name value=""/>
+            <description value=""/>
+            <DateTime value=""/>
+            <ratio value=""/>
+        </comment-->
+    </exercises>
+    <exercises>
+        <idExercises value="2"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="1"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE2"/>
+        <sourceType value="XMLREC"/>
+        <title value="Alimentación EPOC"/>
+        <urlVideo value="6bqXNfGNnf0"/>
+        <otherInfo1 value="Alimentos para personas con EPOC"/>
+        <description>
+            <![CDATA[
+                <h3>Alimentos para personas con EPOC</h3>
+                <p>La alimentación juega un rol fundamental para mantener una nutrición adecuada y una calidad de vida buena en los pacientes con EPOC.
+                </p><p>Principalmente se recomienda una alimentación baja en calorías y carbohidratos y alta en proteínas. Además es importante el consumo de frutas y verduras para que el paciente tenga una alimentación balanceada. La consistencia de los alimentos debe ser tomada en cuenta dependiendo del estado del paciente. Si el paciente está descompensado, es importante que los alimentos sean blandos, que no requieran esfuerzo excesivo.
+                </p><p>Fuente: <a href="https://www.youtube.com/channel/UCYMat03rhgsClV90XEcPn9A">Vivir Mejor.</a></p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    <exercises>
+        <idExercises value="3"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="3"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE3"/>
+        <sourceType value="XMLREC"/>
+        <title value="Fisioterapia respiratoria"/>
+        <urlVideo value="bGfdrobn4BE"/>
+        <otherInfo1 value="Fisioterapia en hogar"/>
+        <description>
+            <![CDATA[
+                <h3>En hogar</h3>
+                <p>Para los pacientes con EPOC, el mantener una terapia respiratoria es fundamenta, además del tratamiento farmacológico correspondiente. Esto ayuda a que los músculos del paciente estén entrenados y le permitan tener una mejor respuesta en caso de presentarse una crisis.
+                </p><p>Algunos ejercicios se pueden hacer en casa diariamente, sin la necesidad de equipos costosos como los que se presentan en el video.
+                </p><p>Fuente: <a href="https://www.youtube.com/channel/UCYMat03rhgsClV90XEcPn9A">Vivir Mejor.</a></p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    <exercises>
+        <idExercises value="4"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE4"/>
+        <sourceType value="XMLREC"/>
+        <title value="Ejercicios de extremidades"/>
+        <urlVideo value=""/>
+        <otherInfo1 value="Extremidades inferiores"/>
+        <description>
+            <![CDATA[
+                <h3>Extremidades inferiores</h3>
+                <p>Una opción es subir y bajar escaleras y si se puede aumentar el ritmo progresivamente. Ya verá como día a día alivia su falta de aliento debido a que hace un uso más efciente de sus músculos respiratorios. Es importante comenzar despacio, tomarse el pulso al principio y an finalizar, (si aumenta en exceso, disminuya el ritmo). Mantenga el control del tiempo y disfrute de su mejoría.</p>
+                <h3>Ejercicio 1</h3>
+                <p>Sentado en una silla con respaldo, levantar el pie del suelo hasta estirar la pierna. Repetir el ejercicio con la otra pierna.</p>
+                <h3>Ejercicio 2</h3>
+                <p>El mismo ejercicio que el anterior, pero una vez que se ha estirado completamente la pierna, levantar también el muslo con la pierna estirada. Repetir con la otra pierna.</p>
+                <h3>Ejercicio 3</h3>
+                <p>Sentado en una silla con la espalda recta y las manos en la cintura, levantarse sin despegar las manos y sin doblar la espalda.</p>
+                <h3>Ejercicio 4</h3>
+                <p>En posición sentado, elevar el muslo con un peso atado al muslo (10 veces con cada pierna).</p>
+                <h3>Ejercicio 5</h3>
+                <p>Puede caminar por terreno llano tanto como aguante, se aconseja comenzar a ritmo suave y recorridos cortos e ir realizando paradas cuando se note cansado. Progresivamente aumente el ritmo tanto el duración como en velocidad. Tome mucho tiempo para exhalar aire y no tanto para inspirar. Exhale lenta y de forma controlada con labios fruncidos (como si silbara). Por ejemplo: Mientras camina cuente 1,2,3 para inspirar y 4,5,6,7,8,9,10 para espirar. Camine por lo menos 2 veces al día. Empiece con 1-2 minutos e irá incrementando el tiempo diariamente (hasta llegar a los 30 minutos como mínimo 2 veces por semana).</p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    <exercises>
+        <idExercises value="5"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE5"/>
+        <sourceType value="XMLREC"/>
+        <title value="Ejercicios de relajación"/>
+        <urlVideo value="XaZz-KUx0Lc"/>
+        <otherInfo1 value="Yoga"/>
+        <description>
+            <![CDATA[
+                <h3>Yoga</h3>
+                <p>El yoga lleva milenios practicándose y obteniendo sorprendentes beneficios para la salud con la respiración, la relajación y una serie de posturas llamadas asanas. Aprender a respirar es fundamental para iniciar una relajación con resultados rápidos y efectivos. Expondremos a continuación una serie de ejercicios para iniciarse en la técnica.
+                </p><h3>Paso 1: Un sitio y una respiración relajante</h3>
+                <p>Debe prepararse un sitio cómodo y tranquilo, sin interrupciones ni ruidos. Puede tenderse boca arriba en una cama o en una manta en el suelo. Concéntrese unos minutos en su respiración. Déjese llevar por ella. No fuerce nada. Lenta, profunda y silenciosa. Piense sólo en su respiración durante 5 minutos. Primero concéntrese en hacer una espiración lenta y profunda. Deje entrar el aire en sus pulmones lentamente mientras inspira. Ensaye una respiración completa. Céntrese primero en la respiración abdominal, sienta como el diafragma desciende suavemente cuando inspira. Concéntrese en hacer una respiración relajada, silenciosa; respirar y relajar. Sienta que respira con su cuerpo, sienta que sus ojos respiran, su cara, su frente, respira con sus órganos internos, su garganta, sus pulmones, su vientre, sus músculos. Tome conciencia de que todas las células de su cuerpo están respirando (Haga esto unos 10 minutos).
+                </p><h3>Paso 2: Déjese llevar por la gravedad</h3>
+                <p>Vaya tomando conciencia de su cuerpo mientras respira lentamente. Sea consciente de las fuerzas de la gravedad, la tierra nos atrae. Deje que cada músculo de los pies, las piernas, los muslos, la espalda, los hombros, el cuello,la cabeza sea atraído por la gravedad. Sienta cada músculo muy pesado, aleje de su mente cualquier necesidad de contracción muscular. Concentre su pensamiento en la relajación. Deje que sus pies, piernas y muslos, los atraiga el suelo. Sus brazos extendidos hacia arriba, su cuello sin tensión (3 minutos).
+                </p><h3>Paso 3: Relaje pies, piernas y muslos</h3>
+                <p>Vaya dejando su respiración relajada y su cuerpo y centre su mente en partes muy concretas. Primero los pies, relájelos dedo a dedo, sienta calor conforme note su relajación, su respiración, lentamente, vaya relajando la planta del pie, los talones, cada tobillo, los gemelos, sienta su pesadez, la de sus muslos, su zona lumbar. No siga hasta que haya desaparecido cualquier tensión o signo de contracción muscular de las extremidades inferiores. Observe mental y pasivamente como respiran (6 minutos).
+                </p><h3>Paso 4: La relajación de la espalda, el cuello, el vientre, la caja toráxica, el pecho, los hombros.</h3>
+                <p>Siga concentrándose en la relajación de cada músculo, relajándolo, sintiendo su descanso, su respiración. En realidad es su estado natural, aleje de cada músculo la tensión, no hay necesidad de tensión. Su cerebro ayuda a cada músculo a recuperar su estado natural en posición de descanso. Cuando llegue a la espalda, concéntrese vértebra a vértebra, sienta que se ensancha y se extiende; deje que el diafragma de un masaje suave al abdomen al respirar relajándolo del todo, retire del cuello alguna rigidez que todavía quede (8 minutos)
+                </p><h3>Paso 5: Relaje las manos, los brazos</h3>
+                <p>Primero concéntrese en la relajación de sus dedos, uno a uno. Pase a las palmas de sus manos, sus muñecas, sus antebrazos y brazos (8 minutos).
+                </p><h3>Paso 6: Relajar la cabeza, la cara</h3>
+                <p>Tómese un tiempo muy especial para su cabeza. Empiece por relajar la mandíbula, la lengua, los labios. Relaje los músculos de sus ojos, sus cejas, sus pestañas. Sienta su frente amplia, relajada; relaje hasta los cabellos, el cuero cabelludo (6 minutos).
+                </p><h3>Paso 7: Los órganos internos</h3>
+                <p>Vaya sintiendo la unidad de su cuerpo. Viaje por su cuerpo y observe que está perfectamente relajado, casi separado de usted. Vaya abandonando a su cuerpo ya perfectamente relajado, deje que su mente se recree con imágenes plácidas, el agua, el cielo, la naturaleza (2 minutos).
+                </p><h3>Paso 8: Relajación total</h3>
+                <p>Abandone mentalmente su cuerpo, deje su mente otar, viajar por el espacio, por un bosque, la luz, su aire limpio, puro, la paz. Sienta que cambia de tamaño conforme camina, sienta que todo lo que le rodea tiene un tamaño enorme (los árboles, los troncos, las hojas), siéntase una abeja que vuela, disfrute de la placidez de animales pací cos, una ardilla, los pájaros. Perciba dimensiones de gran tamaño, disfrute de los detalles, las formas de las hojas, los colores de las ores, el tamaño inmenso de las ores, las gotas de agua, el olor de humedad de la tierra, recorra los tallos de las platas, mire hacia arriba los inmensos árboles, camine y hágase un gigante de aire, vea una dimensión diferente, vea pequeños los árboles, las casas,los pueblos. Respire mucho aire, bote. Navegue por las estrellas, por el espacio in nito (todo el tiempo que quiera, que disfrute).
+                </p>
+                <p>Fuente: unrespiro.es</p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    <exercises>
+        <idExercises value="6"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE6"/>
+        <sourceType value="XMLREC"/>
+        <title value="Control de la respiración"/>
+        <urlVideo value="BP0uq-AqBkw"/>
+        <otherInfo1 value="Ejercicios para mejorar capacidad respiratoria"/>
+        <description>
+            <![CDATA[
+                <h3>Ejercicios para mejorar capacidad respiratoria</h3>
+                <p>Además de los ejercicios presentados en el video para mejorar la capacidad respiratoria se presentan a continuación alguons ejercicios que ayudan a aprender a utilizar todos los elementos que constituyen la respiración. A continuación, se propone un esquema de ejercicios:
+                </p><h3>Ejercicio 1</h3>
+                <p>Hay que conseguir dirigir el aire de la inspiración hacia la parte inferior de sus pulmones. Para ello, mueva en la respiración la zona del vientre, pero no la del estómago ni la del pecho.
+                </p><h3>Ejercicio 2</h3>
+                <p>Dirigir el aire hacia la parte inferior y media de los pulmones. Durante la respiración, se moverá la zona del vientre y del estómago, pero no la del pecho.
+                </p><h3>Ejercicio 3</h3>
+                <p>El objetivo es conseguir la inspiración completa. Dirigir el aire primero a la zona del vientre, después a la del estómago, y por último al pecho (3 tiempos en la misma inspiración).
+                </p><h3>Ejercicio 4</h3>
+                <p>El proceso es el mismo que en el ejercicio 3, pero simplemente en la espiración fruncimos los labios.
+                </p><h3>Ejercicio 5</h3>
+                <p>El ejercicio es parecido al anterior, lo único que varía es que la inspiración debe realizarse en un tiempo y no en tres.
+                </p><h3>Ejercicio 6</h3>
+                <p>Realizar la respiración completa.
+                </p>
+                <p>Fuente: Universidad de la Salud</p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    <exercises>
+        <idExercises value="7"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="4"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE7"/>
+        <sourceType value="XMLREC"/>
+        <title value="5 movimientos contra EPOC"/>
+        <urlVideo value="xUdFhdOnrMc"/>
+        <otherInfo1 value="EPOC grave"/>
+        <description>
+            <![CDATA[
+                <h3>Abducción de brazos</h3>
+                <p>Abrir los brazos hasta la altura de los hombros, manténgalos de 3 a 5 segundos y bájelos.
+                </p><h3>Flexión de brazos</h3>
+                <p>Levante los brazos por delante del tronco, hasta el máximo que pueda por encima de la cabeza, manténgalos 3 segundos y bájelos.
+                </p><h3>Flexo-extensión de codos</h3>
+                <p>Con los brazos extendidos, flexione los codos, manténgalos de 3 a 5 segundos y extiéndalos nuevamente.
+                Todos los ejercicios de brazos se pueden realizar con pesas de 1 ó 2 kg si no provoca dificultad respiratoria.
+                </p><h3>Cuando no debo hacer ejercicio</h3>
+                <ul>
+                    <li>Si tiene dificultad respiratoria severa.</li>
+                    <li>Si la fiebre es superior a 38ºC.</li>
+                    <li>Si siente dolor torácico.</li>
+                    <li>Si se presenta Inflamación articular.</li>
+                </ul>
+                <p>En cualquiera de estos casos, ACUDA SU MÉDICO/A.
+                </p><p>
+                Fuentes: <a href="https://www.youtube.com/channel/UC52mRR3k2eTb_nSnmeMTG3A">SEPAR</a>, Escuela de Pacientes.
+                </p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <!--
+    <exercises>
+        <idExercises value="1"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="4"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE1"/>
+        <sourceType value="XMLREC"/>
+        <title value="5 movimientos contra EPOC"/>
+        <urlVideo value="xUdFhdOnrMc"/>
+        <otherInfo1 value="Flexión de brazos y piernas"/>
+        <description>
+        <![CDATA[
+            <h3>Flexión de brazos</h3>
+            <p>Levante los brazos por delante del tronco, hasta el máximo que pueda por encima de la cabeza, manténgalos 3 segundos y bájelos.</p>
+            <h3>Abducción de brazos</h3>
+            <p>Abrir los brazos hasta la altura de los hombros, manténgalos de 3 a 5 segundos y bájelos.</p>
+            <h3>Flexo-extensión de codos</h3>
+            <p>Con los brazos extendidos, flexione los codos, manténgalos de 3 a 5 segundos y extiéndalos nuevamente.
+            Todos los ejercicios de brazos se pueden realizar con pesas de 1 ó 2 kg si no provoca dificultad respiratoria.</p>
+            <h3>Cuando no debo hacer ejercicio</h3>
+             - Si tiene dificultad respiratoria severa.
+             <br> - Si la fiebre es superior a 38ºC.
+             <br> - Si siente dolor torácico.
+             <br> - Si se presenta Inflamación articular.
+             <p>En cualquiera de estos casos, ACUDA SU MÉDICO/A.</p>
+        ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="2"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="4"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE2"/>
+        <sourceType value="XMLREC"/>
+        <title value="Caminadas leves"/>
+        <urlVideo value=""/>
+        <otherInfo1 value="Caminadas leves"/>
+        <description>
+            <![CDATA[
+            <h3>Postura</h3>
+            <p> Postura erguida con hombros relajados y moviendo los brazos con balanceo. Debe caminar despacio, por terreno llano, al ritmo que tolere, sin forzar. Evite los momentos del día de más calor o de frío intenso.</p>
+            <h3>Tiempo</h3>
+            <p>El objetivo es caminar de 30 minutos a 1 hora diaria, de 3 a 7 días a la semana. Comience por 15 minutos al día y aumente 5 minutos más cada semana.</p>
+        ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="3"/>
+        <idGroupFK value="3"/>
+        <idSubGroupFK value="4"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE3"/>
+        <sourceType value="XMLREC"/>
+        <title value="Recomendaciones para hacer ejercicios"/>
+        <urlVideo value=""/>
+        <otherInfo1 value="Practica de ejercicios"/>
+        <description>
+            <![CDATA[
+                <h3>Ropa</h3>
+                <p>Use ropa cómoda, que no le apriete el abdomen y calzado cerrado que le cubra el talón y no le provoque molestias.</p>
+                <h3>Postura</h3>
+                <p>Haga los ejercicios con una postura erguida,cogiendo aire por la nariz inflando la barriga y echándolo por la boca, como si soplara.</p>
+                <h3>General para personas con EPOC</h3>
+                <p>No olvide el inhalador: si tiene dificultad respiratoria, párese, aplique el inhalador, respire hondo y continúe con los descansos necesarios. Lo importante es que realice el ejercicio aunque sea muy despacio. Descanse 30 minutos cuando finalice los ejercicios.</p>
+                <h3>Tiempo</h3>
+                <p>Evite los ejercicios en las 3 horas siguientes a la comida principal. Todos los ejercicios hay que realizarlos de forma SUAVE y PROGRESIVA.</p>
+        ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="4"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE4"/>
+        <sourceType value="XMLREC"/>
+        <title value="Control de la respiración"/>
+        <urlVideo value="BP0uq-AqBkw"/>
+        <otherInfo1 value="Rehabilitación de la respiración"/>
+        <description>
+            <![CDATA[
+                <p>Con estas técnicas se pretende aprender a utilizar todos los elementos que constituyen la respiración. A continuación, se propone un esquema de ejercicios:</p>
+                <h3>Ejercicio 1</h3>
+                <p>Hay que conseguir dirigir el aire de la inspiración hacia la parte inferior de sus pulmones. Para ello, mueva en la respiración la zona del vientre, pero no la del estómago ni la del pecho.</p>
+                <h3>Ejercicio 2</h3>
+                <p>Dirigir el aire hacia la parte inferior y media de los pulmones. Durante la respiración, se moverá la zona del vientre y del estómago, pero no la del pecho.</p>
+                <h3>Ejercicio 3</h3>
+                <p>El objetivo es conseguir la inspiración completa. Dirigir el aire primero a la zona del vientre, después a la del estómago, y por último al pecho (3 tiempos en la misma inspiración).</p>
+                <h3>Ejercicio 4</h3>
+                <p>El proceso es el mismo que en el ejercicio 3, pero simplemente en la espiración fruncimos los labios.</p>
+                <h3>Ejercicio 5</h3>
+                <p>El ejercicio es parecido al anterior, lo único que varía es que la inspiración debe realizarse en un tiempo y no en tres.</p>
+                <h3>Ejercicio 6</h3>
+                <p>Realizar la respiración completa.</p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="5"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE5"/>
+        <sourceType value="XMLREC"/>
+        <title value="Yoga"/>
+        <urlVideo value="XaZz-KUx0Lc"/>
+        <otherInfo1 value="Ejercícios de relajamiento"/>
+        <description>
+            <![CDATA[
+                <p>El yoga lleva milenios practicándose y obteniendo sorprendentes benecios para la salud con la respiración, la relajación y una serie de posturas llamadas asanas. Aprender a respirar es fundamental para iniciar una relajación con resultados rápidos y efectivos. Expondremos a continuación una serie de ejercicios para iniciarse en la técnica.</p>
+                <h3>Paso 1: Un sitio y una respiración relajante</h3>
+                <p>Debe prepararse un sitio cómodo y tranquilo, sin interrupciones ni ruidos. Puede tenderse boca arriba en una cama o en una manta en el suelo. Concéntrese unos minutos en su respiración. Déjese llevar por ella. No fuerce nada. Lenta, profunda y silenciosa. Piense sólo en su respiración durante 5 minutos. Primero concéntrese en hacer una espiración lenta y profunda. Deje entrar el aire en sus pulmones lentamente mientras inspira. Ensaye una respiración completa. Céntrese primero en la respiración abdominal, sienta como el diafragma desciende suavemente cuando inspira. Concéntrese en hacer una respiración relajada, silenciosa; respirar y relajar. Sienta que respira con su cuerpo, sienta que sus ojos respiran, su cara, su frente, respira con sus órganos internos, su garganta, sus pulmones, su vientre, sus músculos. Tome conciencia de que todas las células de su cuerpo están respirando (Haga esto unos 10 minutos).</p>
+                <h3>Paso 2: Déjese llevar por la gravedad</h3>
+                <p>Vaya tomando conciencia de su cuerpo mientras respira lentamente. Sea consciente de las fuerzas de la gravedad, la tierra nos atrae. Deje que cada músculo de los pies, las piernas, los muslos, la espalda, los hombros, el cuello,la cabeza sea atraído por la gravedad. Sienta cada músculo muy pesado, aleje de su mente cualquier necesidad de contracción muscular. Concentre su pensamiento en la relajación. Deje que sus pies, piernas y muslos, los atraiga el suelo. Sus brazos extendidos hacia arriba, su cuello sin tensión (3 minutos).</p>
+                <h3>Paso 3: Relaje pies, piernas y muslos</h3>
+                <p>Vaya dejando su respiración relajada y su cuerpo y centre su mente en partes muy concretas. Primero los pies, relájelos dedo a dedo, sienta calor conforme note su relajación, su respiración, lentamente, vaya relajando la planta del pie, los talones, cada tobillo, los gemelos, sienta su pesadez, la de sus muslos, su zona lumbar. No siga hasta que haya desaparecido cualquier tensión o signo de contracción muscular de las extremidades inferiores. Observe mental y pasivamente como respiran (6 minutos).</p>
+                <h3>Paso 4: La relajación de la espalda, el cuello, el vientre, la caja torácica, el pecho, los hombros.</h3>
+                <p>Siga concentrándose en la relajación de cada músculo, relajándolo, sintiendo su descanso, su respiración. En realidad es su estado natural, aleje de cada músculo la tensión, no hay necesidad de tensión. Su cerebro ayuda a cada músculo a recuperar su estado natural en posición de descanso. Cuando llegue a la espalda, concéntrese vértebra a vértebra, sienta que se ensancha y se extiende; deje que el diafragma de un masaje suave al abdomen al respirar relajándolo del todo, retire del cuello alguna rigidez que todavía quede (8 minutos)</p>
+                <h3>Paso 5: Relaje las manos, los brazos</h3>
+                <p>Primero concéntrese en la relajación de sus dedos, uno a uno. Pase a las palmas de sus manos, sus muñecas, sus antebrazos y brazos (8 minutos).</p>
+                <h3>Paso 6: Relajar la cabeza, la cara</h3>
+                <p>Tómese un tiempo muy especial para su cabeza. Empiece por relajar la mandíbula, la lengua, los labios. Relaje los músculos de sus ojos, sus cejas, sus pestañas. Sienta su frente amplia, relajada; relaje hasta los cabellos, el cuero cabelludo (6 minutos).</p>
+                <h3>Paso 7: Los órganos internos</h3>
+                <p>Vaya sintiendo la unidad de su cuerpo. Viaje por su cuerpo y observe que está perfectamente relajado, casi separado de usted. Vaya abandonando a su cuerpo ya perfectamente relajado, deje que su mente se recree con imágenes plácidas, el agua, el cielo, la naturaleza (2 minutos).</p>
+                <h3>Paso 8: Relajación total</h3>
+                <p>Abandone mentalmente su cuerpo, deje su mente  otar, viajar por el espacio, por un bosque, la luz, su aire limpio, puro, la paz. Sienta que cambia de tamaño conforme camina, sienta que todo lo que le rodea tiene un tamaño enorme (los árboles, los troncos, las hojas), siéntase una abeja que vuela, disfrute de la placidez de animales pací cos, una ardilla, los pájaros. Perciba dimensiones de gran tamaño, disfrute de los detalles, las formas de las hojas, los colores de las  ores, el tamaño inmenso de las  ores, las gotas de agua, el olor de humedad de la tierra, recorra los tallos de las platas, mire hacia arriba los inmensos árboles, camine y hágase un gigante de aire, vea una dimensión diferente, vea pequeños los árboles, las casas,los pueblos. Respire mucho aire,  ote. Navegue por las estrellas, por el espacio in nito (todo el tiempo que quiera, que disfrute).</p>
+                ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="6"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE6"/>
+        <sourceType value="XMLREC"/>
+        <title value="Aumentar la capacidad pulmonar"/>
+        <urlVideo value="7axdlfIUI_k"/>
+        <otherInfo1 value="Visión de la fisioterapia respiratoria para aumentar la capacidad pulmonar"/>
+        <description>
+            <![CDATA[
+               Cómo aumentar la capacidad pulmonar desde la visión de la fisioterapia respiratoria.
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+
+    <exercises>
+        <idExercises value="7"/>
+        <idGroupFK value="2"/>
+        <idSubGroupFK value="2"/>
+        <idTypeExerciseFK value="0"/>
+        <idSource value="PRE7"/>
+        <sourceType value="XMLREC"/>
+        <title value="Ejercicios de extremidades inferiores"/>
+        <urlVideo value="bGfdrobn4BE"/>
+        <otherInfo1 value="Tipos de ejercicios para extremidades inferiores"/>
+        <description>
+            <![CDATA[
+               <p>Una opción es subir y bajar escaleras y si se puede aumentar el ritmo progresivamente. Ya verá como día a día alivia su falta de aliento debido a que hace un uso más e ciente de sus músculos respiratorios. Es importante comenzar despacio, tomarse el pulso al principio y al  nalizar, (si aumenta en exceso, disminuya el ritmo). Mantenga el control del tiempo y disfrute de su mejoría.</p>
+               <h3>Ejercicio 1</h3>
+               <p>Sentado en una silla con respaldo, levantar el pie del suelo hasta estirar la pierna. Repetir el ejercicio con la otra pierna.</p>
+               <h3>Ejercicio</h3>
+               <p>El mismo ejercicio que el anterior, pero una vez que se ha estirado completamente la pierna, levantar también el muslo con la pierna estirada. Repetir con la otra pierna.</p>
+               <h3>Ejercicio 3</h3>
+               <p>Sentado en una silla con la espalda recta y las manos en la cintura, levantarse sin despegar las manos y sin doblar la espalda.</p>
+               <h3>Ejercicio 4</h3>
+               <p>En posición sentado, elevar el muslo con un peso atado al muslo (10 veces con cada pierna)</p>
+               <h3>Ejercicio 5</h3>
+               <p>Puede caminar por terreno llano tanto como aguante, se aconseja comenzar a ritmo suave y recorridos cortos e ir realizando paradas cuando se note cansado. Progresivamente aumente el ritmo tanto el duración como en velocidad. Tome mucho tiempo para exhalar aire y no tanto para inspirar. Exhale lenta y de forma controlada con labios fruncidos (como si silbara). Por ejemplo: Mientras camina cuente 1,2,3 para inspirar y 4,5,6,7,8,9,10 para espirar. Camine por lo menos 2 veces al día. Empiece con 1-2 minutos e irá incrementando el tiempo diariamente (hasta llegar a los 30 minutos como mínimo 2 veces por semana).</p>
+            ]]>
+        </description>
+        <otherInfo2 value="0"/>
+        <otherInfo3 value="0"/>
+        <otherInfo4 value="0"/>
+        <favorite value="0"/>
+        <hidden value="0"/>
+        <ratio value="0"/>
+    </exercises>
+    -->
+</exerciseslist>

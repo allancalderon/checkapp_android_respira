@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:elevation="0dp"
+            app:elevation="0dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_main_activity2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_list_exercise_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:focusableInTouchMode="false" />
+
+        <!--include layout="@layout/content_list_exercise" /-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_list_exercise_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </LinearLayout>
+    <!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabExerciseActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_plus_white" />
+    -->
+    <RelativeLayout
+        android:id="@+id/activity_list_exercise_fabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabExerciseActivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_plus_white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabChildAnnotation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/fabExerciseActivity2"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:visibility="invisible"
+            app:backgroundTint="?attr/colorPrimary"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/ic_note_add_white_24dp"/>
+        <TextView
+            android:id="@+id/textChildAnnotation2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/textChildAnnotation"
+            android:layout_alignBottom="@id/fabChildAnnotation2"
+            android:layout_toLeftOf="@id/fabExerciseActivity2"
+            android:layout_toStartOf="@id/fabExerciseActivity2"
+            android:visibility="invisible"
+            android:layout_marginRight="@dimen/fabTextMarginRight"
+            android:layout_marginBottom="@dimen/fabTextMarginBottom"
+            android:background="@android:color/black"
+            android:padding="4dp"
+            android:alpha="0.5" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabChildActivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/fabChildAnnotation2"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:visibility="invisible"
+            app:backgroundTint="?attr/colorPrimary"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/ic_view_list_white_24dp" />
+        <TextView
+            android:id="@+id/textChildActivity2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/textChildActivity"
+            android:layout_alignBottom="@id/fabChildActivity2"
+            android:layout_toLeftOf="@+id/fabExerciseActivity2"
+            android:layout_toStartOf="@id/fabExerciseActivity2"
+            android:visibility="invisible"
+            android:layout_marginRight="@dimen/fabTextMarginRight"
+            android:layout_marginBottom="@dimen/fabTextMarginBottom"
+            android:background="@android:color/black"
+            android:alpha="0.5"
+            android:padding="4dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabChildNewPlace2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:visibility="gone"
+            app:backgroundTint="?attr/colorPrimary"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/mymarker_white"
+            android:layout_alignBottom="@id/fabChildActivity2" />
+        <TextView
+            android:id="@+id/textChildNewPlace2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/textChildNewPlace"
+            android:layout_alignBottom="@id/fabChildNewPlace2"
+            android:layout_toLeftOf="@+id/fabExerciseActivity2"
+            android:layout_toStartOf="@id/fabExerciseActivity2"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/fabTextMarginRight"
+            android:layout_marginBottom="@dimen/fabTextMarginBottom"
+            android:background="@android:color/black"
+            android:padding="4dp"
+            android:alpha="0.5" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

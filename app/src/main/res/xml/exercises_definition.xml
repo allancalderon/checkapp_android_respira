@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exercisesdefinition value="1"> <!--Version 1 -->
+    <exercisesgroup>
+        <group value="1">
+            <name value="General"/>
+            <subgroup value="1">General</subgroup>
+        </group>
+        <group value="2">
+            <name value="Rehabilitación"/>
+            <subgroup value="1">General</subgroup>
+            <subgroup value="2">Respiratória</subgroup>
+            <subgroup value="3">Cardíaca</subgroup>
+        </group>
+        <group value="3">
+            <name value="EPOC"/>
+            <subgroup value="1">General</subgroup>
+            <subgroup value="2">Leve</subgroup>
+            <subgroup value="3">Media</subgroup>
+            <subgroup value="4">Grave</subgroup>
+            <subgroup value="5">Preventivo</subgroup>
+        </group>
+        <group value="4">
+            <name value="Homeopatia"/>
+            <subgroup value="1">General</subgroup>
+        </group>
+        <group value="5">
+            <name value="Fumantes"/>
+            <subgroup value="1">General</subgroup>
+        </group>
+    </exercisesgroup>
+    <exercisetype>
+        <idTypeAssignment value="1" name="General"/>
+        <idTypeAssignment value="2" name="Caminar"/>
+        <idTypeAssignment value="3" name="Correr"/>
+        <idTypeAssignment value="4" name="Pedalar"/>
+        <idTypeAssignment value="5" name="Bien estar"/>
+    </exercisetype>
+</exercisesdefinition>

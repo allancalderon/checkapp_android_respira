@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_name">Respira CheckApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_sample">Mapa</string>
+    <string name="pref_title_system_sync_settings">pref_title_system_sync_settings</string>
+    <string name="pref_title_sync_frequency">pref_title_sync_frequency</string>
+    <string name="pref_header_notifications">pref_header_notifications</string>
+    <string name="pref_header_data_sync">pref_header_data_sync</string>
+    <string name="pref_title_new_message_notifications">pref_title_new_message_notifications</string>
+    <string name="pref_title_ringtone">Nuevas mensajes</string>
+    <string name="pref_title_vibrate">pref_title_vibrate</string>
+    <string name="title_activity_filter">title_activity_filter</string>
+    <string name="title_activity_share">title_activity_share</string>
+    <string name="title_activity_my_places">title_activity_my_places</string>
+    <string name="pref_ringtone_silent">pref_ringtone_silent</string>
+    <!--Exercise Activity-->
+    <string name="title_activity_exercise">Ejercicio</string>
+    <string name="activity_exercise_title">Detalles del ejercicio</string>
+    <string name="title_activity_list_exercise">Lista de ejercicios</string>
+    <string name="google_app_id">AIzaSyBJpZ1G9MbZGtJky-HQLHo_nUAaiIipFs8</string>
+    <!--Menu-->
+    <string name="menu_timeline">Timeline</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_myplaces">Mis sitios</string>
+    <string name="menu_contact">Contactos</string>
+    <string name="menu_searchnearplaces">Sitios cercanos</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_group_summary">Resumen</string>
+    <string name="menu_history_exercise">Dashboard</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_environment_prediction">Previsión de contaminación</string>
+    <string name="menu_group_config">Configuration</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_helpfeedback">Help and Feedback</string>
+
+    <!--string name="google_app_id">AIzaSyDYjf5orOiAHT_cUSn6KRwM2CUc5nOaNZQ</string-->
+    <string name="textChildAnnotation">Nueva nota</string>
+    <string name="textChildFilter">Filtro</string>
+    <string name="textChildActivity">Nuevo ejercicio</string>
+    <string name="textChildNewPlace">Nueva ubicación</string>
+    <string name="title_activity_new_annotation">New Annotation</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_timeline">Timeline</string>
+    <!-- Strings related to Settings -->
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_exercise_list_slider">ExerciseListSliderActivity</string>
+    <string name="textExerciseSubtitleTimeline">Timeline</string>
+    <string name="ExerciseListTabResume">Inicio</string>
+    <string name="ExerciseListTabRecommend">Recomendación</string>
+    <string name="ExerciseListTabMyExercise">Mis ejercicios</string>
+    <string name="ExerciseListTabFavorites">Favoritos</string>
+    <string name="EditExerciseName">Name</string>
+    <string name="EditExerciseDescription">Description (opcional)</string>
+    <string name="EditExerciseDuration">Duración</string>
+    <string name="EditExerciseMoreInformation">Otras informaciones</string>
+    <string name="EditExerciseGroup">Grupo</string>
+    <string name="EditExerciseSubgroup">Subgrupo</string>
+    <string name="EditExerciseExerciseType">Tipo de ejercicio</string>
+    <string name="EditExerciseOtherInfo">Otras informaciones</string>
+    <string name="EditExerciseLabelData">Data</string>
+    <string name="EditExerciseLabelHorario">Horario</string>
+    <string name="EditExerciseLabelLocation">Localización</string>
+    <string name="EditExerciseButtonSave">Guardar</string>
+    <string name="EditExerciseButtonCancel">Cancelar</string>
+    <string name="details_edit">Editar</string>
+    <string name="details_share">Compartir</string>
+    <string name="details_delete">Borrar</string>
+    <string name="DeleteExerciseButtonOk">Si</string>
+    <string name="DeleteExerciseButtonCancel">Cancelar</string>
+    <string name="DeleteExerciseDescription">¿Confirma que desea eliminar el ejercício?</string>
+    <string name="title_activity_edit_exercise">Editar ejercício</string>
+    <string name="title_activity_delete_exercise">Borrar ejercicio</string>
+    <string name="title_activity_share_exercise">Compartir ejercicio</string>
+    <string name="ShareExerciseButtonOk">Compartir</string>
+    <string name="ShareExerciseButtonCancel">Cancelar</string>
+    <string name="ShareExerciseDescription">[CheckApp] Hice ejercicios para mejorar mi capacidad respiratória! </string>
+    <string name="ShareExerciseTitle">Texto para compartir:</string>
+    <string name="exerciseShare_title">Seleccione la aplicación para compartir:</string>
+    <string name="details_hide">Ocultar</string>
+    <string name="exerciseActivity_title">Ejercicios</string>
+    <string name="EditExerciseLabelLocal">Localizacion</string>
+    <string name="EditAnnotationLabelOtherInfo">Otras informaciones</string>
+    <string name="EditExerciseLabelDuration">Duracion</string>
+    <string name="EditExerciseLabelExercise">Ejercicio</string>
+    <string name="EditExerciseLabelHour">hora</string>
+    <string name="EditExerciseLabelMinute">minuto</string>
+    <string name="EditAnnotationLabelRecord">Grabar voz o texto</string>
+    <string name="EditAnnotationLabelBtnSave">Guardar</string>
+    <string name="EditAnnotationLabelBtnCancel">Cancelar</string>
+    <string name="contaminants_good">Bueno</string>
+    <string name="contaminants_satisfactory">Satisfactorio</string>
+    <string name="contaminants_moderately">Moderado</string>
+    <string name="contaminants_poor">Arriesgado</string>
+    <string name="contaminants_verypoor">Muy arriesgado</string>
+    <string name="exerciseAdapter_ratio">Calificación</string>
+    <string name="exerciseAdapter_ratioNoInfo">Ejercicio no calificado</string>
+    <string name="textExerciseFragment0Title">Ambiente de Madrid</string>
+    <string name="textExerciseFragment0SubtitleSensors">Contaminantes</string>
+    <string name="textExerciseFragment0SubtitleLegend">Leyenda del mapa</string>
+    <string name="ExerciseListTabTimeline">Linea del tiempo</string>
+    <string name="menu_favorite">Ejercicios favoritos</string>
+    <string name="menu_map">Mapa y sitios</string>
+    <string name="month_january">Enero</string>
+    <string name="month_february">Febrero</string>
+    <string name="month_march">Marzo</string>
+    <string name="month_april">Abril</string>
+    <string name="month_may">Mayo</string>
+    <string name="month_june">Junio</string>
+    <string name="month_july">Julio</string>
+    <string name="month_august">Agosto</string>
+    <string name="month_september">Septiembre</string>
+    <string name="month_octuber">Octubre</string>
+    <string name="month_november">Noviembre</string>
+    <string name="month_december">Diciembre</string>
+    <string name="timeline_title_day">Día</string>
+    <string name="title_activity_favorite">Ejercicios favoritos</string>
+    <string name="action_legend">Leyendas</string>
+    <string name="action_filter">Filtro de sitios</string>
+    <string name="assign_timeline_mesage_empty_text">La description o video de la nota no pueden estar vazios. Por favor incluya alguna información</string>
+    <string name="textExerciseFragment0SubtitleLevels">Escala de contaminación</string>
+    <string name="textMainMeasureLowLevel">Bajo</string>
+    <string name="textMainMeasureHighLevel">Elevado</string>
+
+    <!-- ***********  ***********  *********** -->
+    <!-- ***********  ***********  *********** -->
+    <!-- ***********  ***********  *********** -->
+    <!-- *********** Chat settings *********** -->
+    <!-- ***********  ***********  *********** -->
+    <!-- ***********  ***********  *********** -->
+    <!-- ***********  ***********  *********** -->
+
+    <!-- Connection state -->
+    <string name="conn_title">checkapp: %s</string>
+    <string name="conn_connecting">Conectándose al servidor…</string>
+    <string name="conn_disconnecting">Desconectando...</string>
+    <string name="conn_online">En línea</string>
+    <string name="conn_offline">Fuera de Línea</string>
+    <string name="conn_empty_roster">No hay contactos para mostrar!</string>
+    <string name="conn_reconnect">Reconectar en %d segundos.</string>
+    <string name="conn_disconnected">Conexión cerrada</string>
+    <string name="conn_no_network">Sin conexión de red</string>
+
+    <!-- Global Strings -->
+    <string name="Global_Exit">Salida</string>
+    <string name="Global_authenticate_first">Por favor, conéctarse antes</string>
+    <string name="Global_JID_hint">user@users.checkapp.mobi</string>
+    <!-- tooltip message when the user entered an invalid XMPP address -->
+    <string name="Global_JID_malformed">Verifique el formato de la dirección!</string>
+
+    <!-- FirstStartUpDialog -->
+    <string name="StartupDialog_Title">¡Bienvenido/a a CheckApp!</string>
+    <string name="StartupDialog_Summary">Necesita configurar checkapp antes de usarlo. Por favor, escribe su identidad de Jabber y su contaseña.</string>
+    <string name="StartupDialog_pwHint">Escribe la contraseña</string>
+    <string name="StartupDialog_pwrHint">Repeat password</string>
+    <string name="StartupDialog_Username_title">Identidad Jabber:</string>
+    <string name="StartupDialog_passwd_title">Contraseña:</string>
+    <string name="StartupDialog_advanced">Delantero.....</string>
+    <string name="StartupDialog_create_new">Registrar nueva cuenta</string>
+    <string name="StartupDialog_error_password">Password does not match!</string>
+
+    <!-- Notifications -->
+    <string name="notification_message">Mensaje de %s</string>
+    <string name="notification_anonymous_message">Mensaje recibido</string>
+
+    <!-- Notifications -->
+    <string name="notification_error">Errores al enviar el mensaje!</string>
+
+    <!-- Notification Settings -->
+    <string name="preftitle_notify">Notificación de mensajes</string>
+    <string name="led_title">LED parpadeante</string>
+    <string name="led_summ">Parpadeo del LED al recibir un mensaje</string>
+    <string name="vibr_title">Vibración</string>
+    <string name="vibr_summ">Vibrar al recibir un mensaje</string>
+    <string-array name="vibr_values_displayed">
+        <item>Nunca</item>
+        <item>Preferencias del sistema</item>
+        <item>Siempre</item>
+    </string-array>
+    <string name="ringtone_title">Tono de aviso</string>
+    <string name="ringtone_summ">Tono para mensajes entrantes</string>
+    <string name="ticker_title">Vista previa de mensajes</string>
+    <string name="ticker_summ">Mostrar remitente y mensaje en la barra de estado</string>
+
+    <!-- Startup Setting Strings -->
+    <string name="preftitle_boot">Opciones de arranque</string>
+    <string name="statuspopup_name">Ponga su estado</string>
+    <string name="showOffline_summ">Mostrar siempre todos los contactos en la lista</string>
+    <string name="showOffline_title">Mostrar contactos desconectados</string>
+    <string name="enableGroups_summ">Arrange your contacts by their groups</string>
+    <string name="enableGroups_title">Show contact groups</string>
+    <string name="foregroundService_summ">Mantener checkapp en memoria para asegurar conexiones persistentes (servicio en primer plano)</string>
+    <string name="foregroundService_title">Icono de barra de estado</string>
+
+    <string name="preftitle_debug">Depuración</string>
+    <string name="smackdebug_summ">Registro de depuración y paquetes vía logcat (puede contener información personal)</string>
+    <string name="smackdebug_title">Depuración SMACK</string>
+
+    <string name="reportcrash_title">Enviar informes de fallo de programma</string>
+    <string name="reportcrash_summ">Enviar informes anónimos de fallo de programma a los desarrolladores</string>
+
+    <!-- Appearence Strings -->
+    <string name="preftitle_app">Aspecto</string>
+    <string name="FontChat_title">Tamaño de fuente del chat</string>
+    <string name="FontChat_summ">Definir tamaño de fuente del chat</string>
+    <string name="FontChat_dialog">Tamaño de fuente del chat</string>
+
+    <string name="pref_theme">Tema</string>
+    <string-array name="pref_theme_entries">
+        <item>Oscuro</item>
+        <item>Claro</item>
+    </string-array>
+    <string name="preftitle_ui">Aspecto</string>
+    <string-array name="fontSizesChat">
+        <item>pequeño</item>
+        <item>normal</item>
+        <item>Alto</item>
+        <item>huge</item>
+    </string-array>
+
+    <!-- Mainmenu 	-->
+    <string name="Menu_addFriend">Añadir Contacto</string>
+    <string name="Menu_ShowOff">Mostrar desconectados</string>
+    <string name="Menu_HideOff">Ocultar desconectados</string>
+    <string name="Menu_AccSettings">Editar cuenta</string>
+    <string name="Menu_Settings">Opciones</string>
+    <string name="Menu_Status">Estatus</string>
+    <string name="Menu_connect">Conectar</string>
+    <string name="Menu_disconnect">Desconectar</string>
+    <string name="Menu_about">Acerca de checkapp</string>
+
+    <!-- AddFriend -->
+    <string name="addFriend_Title">Añadir un contacto</string>
+    <string name="addFriend_Summ">Por favor, escibe la identidad  Jabber de su amigo, el apodo deseado marcado en pantalla y elija su grupo de contacto!</string>
+    <string name="addFriend_aliasHint">Nombre de la pantalla</string>
+    <string name="addrosteritemaddgroupchoice">Añadir a un nuevo grupo</string>
+    <string name="NewGroup_EditTextField_Hint">Nombre para el nuevo grupo</string>
+
+    <!-- Roster CONTEXTMENU -->
+    <string name="roster_contextmenu_title">Opciones para %s</string>
+    <string name="roster_contextmenu_group_rename">Renombrar grupo</string>
+    <string name="roster_contextmenu_contact_mark_all_as_read">Mark as read</string>
+    <string name="roster_contextmenu_contact_delete">Eliminar contacto</string>
+    <string name="roster_contextmenu_contact_delmsg">Eliminar historial de charla</string>
+    <string name="roster_contextmenu_contact_open_chat">Abrir la Charla</string>
+    <string name="roster_contextmenu_contact_rename">Renombrar</string>
+    <string name="roster_contextmenu_contact_request_auth">Pedir autorización</string>
+    <string name="roster_contextmenu_contact_change_group">Cambiar de grupo</string>
+
+    <!-- Accountprefs -->
+    <string name="account_settings_login">Información de ingreso</string>
+    <string name="account_settings_title">Configuración de cuenta</string>
+    <string name="account_options_title">Opciones de conexión</string>
+    <string name="account_options_advanced">Opciones avanzadas</string>
+    <string name="connstartup_title">Conectar al encauzamiento</string>
+    <string name="connstartup_summOn">Iniciar sesión cuando se abre checkapp</string>
+    <string name="connstartup_summOff">No conectar automáticamente</string>
+    <string name="carbons_title">Messaje Carbons (XEP-0280</string>
+    <string name="carbons_summ">Pregunta copia tu messajes para  otros acreditación</string>
+    <string name="account_jabberID_title">Identidad Jabber</string>
+    <string name="account_jabberID_sum">ejemplo: yo@jabber.ejemplo.com</string>
+    <string name="account_jabberID_dialog_title">Escribe tu Identidad Jabber</string>
+    <string name="account_jabberPW_title">Contraseña de la cuenta</string>
+    <string name="account_jabberPW_sum">La contraseña de su cuenta de Jabber</string>
+    <string name="account_jabberPW_change_on_server">Change password on server</string>
+    <string name="account_jabberPW_password_old">Old Password:</string>
+    <string name="account_jabberPW_password_new">New Password:</string>
+    <string name="account_jabberPW_warning">WARNING! For successful login you must also set the same password on the server!</string>
+    <string name="account_jabberPW_progress">Please wait, changing password…</string>
+    <string name="account_jabberPW_finished">Password successfully changed.</string>
+    <string name="account_jabberPW_error">Error changing password: %s</string>
+
+    <!-- accountprefs -->
+    <string name="account_resource_title">centro de consulta Client</string>
+    <string name="account_resource_summ">Standard : checkapp</string>
+    <string name="account_resource_dialog_title">Escribe tu habilidad :</string>
+    <string name="account_resource_hint">checkapp</string>
+    <string name="account_prio_title">Prioridad Client</string>
+    <string name="account_prio_summ">Predefinido: 0 (permitido: -128 .. 127)</string>
+    <string name="account_prio_error">Valores permitidos: -128 a 127</string>
+    <string name="account_prio_dialog_title">Escribe  su prioridad:</string>
+    <string name="account_port_title">Puertas servidor</string>
+    <string name="account_port_sum">Standard : 5222</string>
+    <string name="account_port_dialog_title">Escribe la puerta del servidor:</string>
+    <string name="account_port_hint">5222</string>
+    <string name="account_customserver_title">Servidor standard</string>
+    <string name="account_customserver_summ">(Opcional) Nombre del servidor alternativo</string>
+    <string name="account_customserver_dialog_title">Escribe el  nombre  del servidor:</string>
+    <string name="account_customserver_hint">nombre(computador).ejemplo.com</string>
+    <string name="require_ssl_title">Exigir SSL/TLS</string>
+    <string name="require_ssl_summ">Siempre cifrar la conexión con el servidor</string>
+
+    <!--StatusPopUp-->
+    <string name="AddContact_SpinnerPrompt">Seleccionar Grupo</string>
+    <string name="setStatusmsgHint">Tu mensaje de estado</string>
+    <string name="setStatusTitle">Ponga su estado</string>
+    <string name="RenameGroup_summ">Renombrar el grupo %s a:</string>
+    <string name="RenameGroup_title">Renombrar grupo</string>
+    <string name="RenameEntry_summ">Renombrar %1$s (%2$s) a:</string>
+    <string name="RenameEntry_title">Renombrar contacto</string>
+    <string name="MoveRosterEntryToGroupDialog_summ">Seleccione un grupo entre los que figuran debajo</string>
+    <string name="MoveRosterEntryToGroupDialog_title">Cambiar grupo</string>
+    <string name="deleteRosterItem_text">¿Realmente desea eliminar %1$s (%2$s)?</string>
+    <string name="deleteRosterItem_title">Eliminar contacto</string>
+    <string name="deleteChatHistory_text">¿Está seguro de que desea borrar todos los mensajes con %1$s (%2$s)?</string>
+    <string name="deleteChatHistory_title">Eliminar historial de charla</string>
+    <string name="subscriptionRequest_text">%1$s quiere agregarte como contacto: \"%2$s\"</string>
+    <string name="subscriptionRequest_title">Pedido de suscripción</string>
+
+    <!-- CHATWINDOW -->
+    <string name="chat_from_me">Yo:</string>
+    <string name="toast_connectfail_message">Se ha cerrado la conexión</string>
+    <string name="toast_stored_offline">Este mensaje ha sido almacenado para su transmisión.</string>
+    <string name="chat_enterMsgHint">Introduzca el mensaje</string>
+
+    <!-- Chat menu -->
+    <string name="chatmenu_resend">Enviar de nuevo</string>
+
+    <!-- About Dialog -->
+    <string name="AboutDialog_title">Acerca de checkapp</string>
+    <string name="AboutDialog_DevelopersTitle">Desarrolladores</string>
+    <string name="AboutDialog_DevelopersText">Contáctanos en http://checkapp.mobi </string>
+    <string name="AboutDialog_LicenceTitle">Licencia</string>
+    <string name="AboutDialog_Vote">Escribe tu evaluación</string>
+    <string name="AboutDialog_LicenceText">Este programa es software libre: usted puede redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General GNU versión 2 publicada por la Fundación para el Software Libre. Enlace: http://www.gnu.org/licenses/gpl-2.0.html\n \n Partes de este software son ofrecidas bajo la licencia MIT: \n \n Copyright © 2009 Mads Kristiansen, Nullwire ApS\n \n Se autoriza, de forma gratuita, a cualquier persona que ha obtenido una copia de este software y archivos de documentación asociados (el "Software"), para tratar en el Software sin restricción, incluyendo sin ninguna limitación en lo que concierne a los derechos para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y / o vender copias de este Software, y para permitir a las personas que usan el Software a hacerlo, con sujeción a las siguientes condiciones: \n El aviso de copyright anterior y este aviso de permiso se incluirá en todas las copias o partes sustanciales de este Software. \n EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y DE NO INFRACCIÓN. EN NINGÚN  CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE ALGÚN RECLAMO, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UN LITIGIO, AGRAVIO O DE OTRO MODO, DERIVADAS DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU UTILIZACIÓN U OTRAS OPERACIONES EN EL SOFTWARE.</string>
+
+    <string name="status_available">En línea</string>
+    <string name="status_away">Ausente</string>
+    <string name="status_chat">Disponible para conversación</string>
+    <string name="status_dnd">No estobar</string>
+    <string name="status_xa">No está disponible</string>
+    <string name="status_offline">Fuera de Línea</string>
+
+	<string name="translator_credits">Contributions:
+  </string>
+
+    <!-- default roster group with no name -->
+    <string name="default_group">Generales</string>
+    <string name="all_contacts_group">All contacts</string>
+
+    <!-- SEND listener popup -->
+    <string name="chooseContact">Escoger entre contactos</string>
+    <string name="build_version">1.0</string>
+    <string name="build_revision">1.0</string>
+    <string name="menu_chat">Chat</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_prefschat">Configuraciones de Chat</string>
+
+</resources>

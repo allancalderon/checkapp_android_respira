@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/menu_profile" />
+        -->
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_star_white_24dp"
+            android:title="@string/menu_favorite" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/mymarker"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="@string/menu_chat" />
+        <!--
+        <item
+            android:id="@+id/nav_myplaces"
+            android:icon="@drawable/mymarker"
+            android:title="@string/menu_myplaces" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:title="@string/menu_timeline" />
+        <item
+            android:id="@+id/nav_searchnearplaces"
+            android:icon="@drawable/places_ic_search"
+            android:title="@string/menu_searchnearplaces" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+        -->
+    </group>
+    <!--
+    <item android:title="@string/menu_group_summary">
+        <menu>
+            <item
+                android:id="@+id/nav_history_exercise"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="@string/menu_history_exercise" />
+            <item
+                android:id="@+id/nav_statistics"
+                android:icon="@drawable/ic_trending_up_black_24dp"
+                android:title="@string/menu_statistics" />
+            <item
+                android:id="@+id/nav_environment_prediction"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="@string/menu_environment_prediction" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_group_config">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/mr_ic_settings_dark"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_helpfeedback"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/menu_helpfeedback" />
+        </menu>
+    </item>
+    -->
+</menu>

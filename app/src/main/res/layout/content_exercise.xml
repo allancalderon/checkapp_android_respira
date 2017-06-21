@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ExerciseActivity"
+    tools:showIn="@layout/activity_exercise">
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:id="@+id/ratingBarExercise"
+        style="@style/Widget.AppCompat.RatingBar"/>
+    <LinearLayout
+        android:id="@+id/linearLayoutExerciseYouTube"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <fragment
+                android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+                android:id="@+id/fragmentExerciseYouTube"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnExerciseAdd"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add_white_24dp"
+            android:background="@color/place_autocomplete_prediction_secondary_text"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnExerciseEdit"
+            android:layout_weight="1"
+            android:src="@drawable/ic_mode_edit_white_24dp"
+            android:background="@color/place_autocomplete_prediction_secondary_text"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnExerciseDelete"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete_forever_white_24dp"
+            android:background="@color/place_autocomplete_prediction_secondary_text"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnExerciseFavorite"
+            android:layout_weight="1"
+            android:src="@drawable/ic_star_border_white_24dp"
+            android:background="@color/place_autocomplete_prediction_secondary_text"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnExerciseShare"
+            android:layout_weight="1"
+            android:src="@drawable/ic_share_white_24dp"
+            android:background="@color/place_autocomplete_prediction_secondary_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textStyle="bold"
+        android:id="@+id/textExerciseTitle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="26sp"
+        android:layout_margin="16dp" />
+
+
+    <TextView
+                android:id="@+id/textExerciseDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:text="@string/activity_exercise_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/place_autocomplete_prediction_secondary_text"
+        android:id="@+id/viewExerciseSubSeparator"
+        android:visibility="gone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textExerciseSubtitleTimeline"
+        android:textStyle="bold"
+        android:id="@+id/textExerciseSubtitleTimeline"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="26sp"
+        android:layout_margin="16dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewExercise"
+        android:scrollbars="none"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+ </android.support.v4.widget.NestedScrollView>

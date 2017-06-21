@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sync_frequency_values">pref_sync_frequency_values</string-array>
+    <string-array name="pref_sync_frequency_titles">pref_sync_frequency_titles</string-array>
+    <string-array name="vibr_values">
+        <item>OFF</item>
+        <item>SYSTEM</item>
+        <item>ALWAYS</item>
+    </string-array>
+    <string-array name="xmpp_servers" />
+</resources>
