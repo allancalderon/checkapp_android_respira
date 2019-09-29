@@ -105,13 +105,10 @@ public class ExerciseListTabFragment0 extends Fragment {
          * isMapSetup = startMap();
         */
 
-        textMainTemperature = (TextView) rootView.findViewById(R.id.textMainTemperature);
-        textMainTemperatureUnit = (TextView) rootView.findViewById(R.id.textMainTemoeratureUnit);
         textMainDate = (TextView) rootView.findViewById(R.id.textMainDate);
 
         //Measurement
         textMainMeasureTotal = (TextView) rootView.findViewById(R.id.textMainMeasureTotal);
-        textMainMeasureUV = (TextView) rootView.findViewById(R.id.textMainMeasureUV);
         textMainMeasurePM25Color = (LinearLayout) rootView.findViewById(R.id.textMainMeasurePM25Color);
         textMainMeasurePM10Color = (LinearLayout) rootView.findViewById(R.id.textMainMeasurePM10Color);
         textMainMeasureO3Color = (LinearLayout) rootView.findViewById(R.id.textMainMeasureO3Color);

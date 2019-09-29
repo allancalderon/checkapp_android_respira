@@ -67,81 +67,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Temperatura"
-                    android:id="@+id/textView14" />
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textAlignment="center"
-                    android:padding="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:text="-"
-                        android:textSize="24sp"
-                        android:id="@+id/textMainTemperature"
-                        android:textAlignment="center" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:text="°C"
-                        android:textSize="24sp"
-                        android:id="@+id/textMainTemoeratureUnit"
-                        android:textAlignment="center"
-                        android:visibility="invisible" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginLeft="8dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Local"
-                    android:id="@+id/textView22" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Madrid"
-                    android:textSize="24sp"
-                    android:id="@+id/textView44"
-                    android:textAlignment="viewStart" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="16dp"
-            android:layout_height="wrap_content" >
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="8dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Contaminación"
                     android:id="@+id/textView9" />
 
@@ -175,19 +100,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Rayos UV"
-                    android:id="@+id/textView19" />
+                    android:text="Local"
+                    android:id="@+id/textView22" />
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="-"
+                    android:text="Madrid"
                     android:textSize="24sp"
-                    android:id="@+id/textMainMeasureUV"
-                    android:textAlignment="center"
-                    android:background="@color/material_grey_600"
-                    android:padding="5dp" />
+                    android:id="@+id/textView44"
+                    android:textAlignment="viewStart" />
 
             </LinearLayout>
 
