@@ -34,7 +34,6 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
 import mobi.checkapp.epoc.adapter.OnUpdateFragment;
-import mobi.checkapp.epoc.chat.MainWindow;
 import mobi.checkapp.epoc.utils.CacheMainActivity;
 import mobi.checkapp.epoc.utils.Constants;
 import mobi.checkapp.epoc.utils.Utils;
@@ -265,11 +264,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_map) {
             i = new Intent(getApplicationContext(), MapActivity.class);
             startActivity(i);
+        }
+        /**
         } else if (id == R.id.nav_chat) {
             i = new Intent(getApplicationContext(), MainWindow.class);
             startActivity(i);
         }
-        /**
          else if (id == R.id.nav_about) {
 
          } else if (id == R.id.nav_helpfeedback) {

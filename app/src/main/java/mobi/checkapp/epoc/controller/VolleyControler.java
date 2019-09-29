@@ -2,15 +2,11 @@ package mobi.checkapp.epoc.controller;
 
 import android.app.Application;
 import android.content.Context;
-import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-
-import de.duenndns.ssl.MemorizingTrustManager;
-import mobi.checkapp.epoc.chat.data.YaximConfiguration;
 
 /**
  * Created by allancalderon on 30/05/16.
@@ -26,9 +22,6 @@ public class VolleyControler extends Application {
 
     // MTM is needed globally for both the backend (connect)
     // and the frontend (display dialog)
-    public MemorizingTrustManager mMTM;
-
-    private YaximConfiguration mConfig;
 
     public VolleyControler() {
         super();
@@ -39,17 +32,11 @@ public class VolleyControler extends Application {
         super.onCreate();
         mInstance = this;
         //Chat configuration
-        mMTM = new MemorizingTrustManager(this);
-        mConfig = new YaximConfiguration(PreferenceManager.getDefaultSharedPreferences(this));
     }
 
     public static VolleyControler getApp(Context ctx) {            //Chat configuration
         return (VolleyControler)ctx.getApplicationContext();       //Chat configuration
 
-    }
-
-    public static YaximConfiguration getConfig(Context ctx) {      //Chat configuration
-        return getApp(ctx).mConfig;                                //Chat configuration
     }
 
     public static synchronized VolleyControler getInstance() {

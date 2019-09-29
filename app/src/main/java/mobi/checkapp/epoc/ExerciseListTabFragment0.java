@@ -426,7 +426,7 @@ public class ExerciseListTabFragment0 extends Fragment {
                                 String day = pollutantsObject.getString("day");
                                 String hour0 = pollutantsObject.getString("hour0");
                                 Integer hour0val = pollutantsObject.getInt("hour0val");
-                                if (hour0val != 100) {
+                                if (hour0val != 100 && idpollutantglobal.matches("\\d+")) {
                                     Calendar calendar = new GregorianCalendar();
                                     calendar.set(Calendar.YEAR, 2016);
                                     calendar.set(Calendar.MONTH, 3); // 11 = december

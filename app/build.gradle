@@ -12,6 +12,7 @@ android {
         versionCode 5
         versionName "1.1"
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -27,7 +28,9 @@ android {
 }
 
 dependencies {
-    compile project(path: ':MemorizingTrustManager')
+//    compile project(path: ':MemorizingTrustManager')
+    implementation 'com.android.support:multidex:1.0.3'
+
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //testCompile 'junit:junit:4.12'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
@@ -43,7 +46,7 @@ dependencies {
         exclude group: 'org.apache.httpcomponents'
     }
     compile 'com.android.support:support-v13:25+'
-    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.android.volley:volley:1.1.0'
 
     compile files('libs/jzlib.jar')
     compile files('libs/libidn-1.9.jar')
